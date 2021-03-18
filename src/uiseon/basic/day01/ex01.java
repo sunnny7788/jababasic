@@ -61,48 +61,51 @@ public class ex01 {
 		double number = (1 / 3) * 3;
 		System.out.println(" ( 1 / 3 ) * 3 = " + number);
 
+		
+
+		//예상값:1, 실제값:0.0
+		//'정수 나누기 정수 '의 결과값은 정수이기 때문!
+
+
+
+
+		int quotient = 7 / 3;
+		System.out.println(" 7 / 3 = " + quotient );
+		 //예상값 
+		int remainder = 7 % 3;
+		System.out.println(" 7 % 3 = "  + remainder );
+		 //
+
+		//
+		//System.out.println
+		//System.out.println
+		//복합대입연산자
+		//산술대입연산자와 대입연산자를 합쳐놓은 연산자
+		//ex)a=a+1 =>a +=1
+
+
+
+
+		//6.
+		double xx = 2.5;
+		double yy = 2.5;
+		int m = 18;
+		int n = 4;
+		double result2 = xx + n + yy - ( xx + n) * yy;
+		System.out.println( " x + n * y  -  ( x + n ) *  y = " +result2);
+
+		result2 = m / n + m % n;
+		System.out.println( " m / n + m % n = " + result2);
+
+		result2=5*x-n/5;
+		System.out.println( " 5 * x - n / 5 = " + result2);
+
+		result2=1-(1-(1-(1-(1-n))));
+		System.out.println( " 1-(1-(1-(1-(1-n)))) = " + result2);
+		
 	}
 }
 
 
 
 
-//예상값:1, 실제값:0.0
-//'정수 나누기 정수 '의 결과값은 정수이기 때문!
-
-
-
-
-int quotient = 7 / 3;
-System.out.println(" 7 / 3 = " + quotient );
- //예상값 
-int remainder = 7 % 3;
-System.out.println(" 7 % 3 = "  + remainder );
- //
-
-//
-//System.out.println
-//System.out.println
-//복합대입연산자
-//산술대입연산자와 대입연산자를 합쳐놓은 연산자
-//ex)a=a+1 =>a +=1
-
-
-
-
-//6.
-double xx = 2.5;
-double yy = 2.5;
-int m = 18;
-int n = 4;
-double result2 = xx + n + yy - ( xx + n) * yy;
-System.out.println( " x + n * y  -  ( x + n ) *  y = " +result2);
-
-result2 = m / n + m % n;
-System.out.println( " m / n + m % n = " + result2);
-
-result2=5*x-n/5;
-System.out.println( " 5 * x - n / 5 = " + result2);
-
-result2=1-(1-(1-(1-(1-n))));
-System.out.println( " 1-(1-(1-(1-(1-n)))) = " + result2);
